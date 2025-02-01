@@ -18,7 +18,7 @@ interface VideoPlayerOptions{
 }
 
 /* Custom Video Player */
-class CustomVideoPlayer{
+export class CustomVideoPlayer{
     private options: VideoPlayerOptions;
     private container: HTMLElement;
     private videoElement: HTMLVideoElement;
